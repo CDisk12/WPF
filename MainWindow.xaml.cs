@@ -18,6 +18,11 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
+
     private void OpenEntryPage_Click(object sender, RoutedEventArgs e)
     {
         EntryPage entryPage = new EntryPage();
